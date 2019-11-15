@@ -1,6 +1,6 @@
 const BoardgameModel = require("../models/Boardgame.model");
 const BoardgameDomain = require("../models/Boardgame.domain");
-
+const gameDetailModel = require("../models/gameDetail.model");
 module.exports = {
   add(title, yearPublished, image, callback) {
     const newBoardgame = new BoardgameModel(
