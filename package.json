@@ -15,10 +15,7 @@
     "nodemon": "^1.19.4"
   },
   "main": "app.js",
-  "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WeCanCodeIT/cyoa-api-edition-emi-cristina.git"
