@@ -11,9 +11,6 @@ module.exports = {
   deleteById(id, callback) {
     GameDetailModel.findOneAndDelete(id).then(callback);
   },
-  findAll(callback) {
-    GameDetailModel.find().then(callback);
-  },
   findById(id, callback) {
     GameDetailModel.findById(id).then(callback);
   }
